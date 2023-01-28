@@ -62,19 +62,25 @@
     position: absolute;
     right: 0;
     top: 0;
+    background-color: #97aed5fe;
+    z-index: 0;
 }
 
 .visiera {
     border: 1px solid black;
+    border-color: black black black transparent;
     width: 131px;
     height: 56px;
     position: absolute;
     top: 100px;
     right: 0;
+    background-color: #97aed5fe;
+    z-index: 1;
 }
 
 .visiera-punta {
     border: 1px solid black;
+    border-color: transparent transparent transparent black;
     width: 30px;
     height: 56px;
     position: absolute;
@@ -82,16 +88,19 @@
     right: 110px;
     transform: rotate(16deg);
     border-bottom-right-radius: 14px;
+    background-color: #97aed5fe;
+    z-index: 0;
 }
 
 .vetro {
-    border: 1px solid black;
+    background-color: black;
     width: 155px;
     height: 97px;
     position: absolute;
     top: 150px;
     right: 0;
     border-bottom-left-radius: 50px;
+    z-index: 4;
 }
 
 .bordo-vetro {
@@ -103,6 +112,8 @@
     right: 0;
     border-bottom-left-radius: 46px;
     border-top-left-radius: 10px;
+    background-color: #97aed5fe;
+    z-index: 1;
 }
 
 .prima-orecchio {
@@ -114,6 +125,8 @@
     border: 1px solid black;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 15px;
+    background-color: #97aed5fe;
+    z-index: 3;
 }
 
 .orecchio {
@@ -125,16 +138,21 @@
     border: 1px solid black;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    background-color: #97aed5fe;
+    z-index: 0;
 }
 
 .mascella1 {
-    width: 31px;
+    width: 59px;
     height: 49px;
     position: absolute;
-    top: 235px;
-    right: 91px;
+    top: 233px;
+    right: 63px;
     border: 1px solid black;
+    border-color: transparent transparent transparent black;
     transform: rotate(-10deg);
+    background-color: #97aed5fe;
+    z-index: 0;
 }
 .mascella2 {
     width: 153px;
@@ -143,8 +161,11 @@
     top: 222px;
     right: -64px;
     border: 1px solid black;
+    border-color: transparent black black transparent;
     transform: rotate(48deg);
     border-bottom-right-radius: 47px;
+    background-color: #97aed5fe;
+    z-index: 0;
 }
 .bocca {
     width: 32px;
@@ -152,8 +173,51 @@
     position: absolute;
     top: 300px;
     right: -2px;
-    border: 1px solid black;
+    background-color: black;
 }
 
-.ombra-cupola
+.ombra-cupola {
+    border: 4px solid black;
+    border-color: transparent transparent transparent black;
+    border-top-left-radius: 126px;
+    width: 118px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
+.ombra-visiera {
+    border: 4px solid black;
+    border-color: transparent transparent transparent black;
+    width: 126px;
+    height: 55px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    border-top-left-radius: 60px;
+    z-index: 4;
+}
+
+.luce-vetro {
+    border: 1px solid black;
+    width: 40px;
+    height: 95px;
+    position: absolute;
+    top: 151px;
+    right: 69px;
+    transform: rotate(-3deg);
+    background: linear-gradient(to right, white, black);
+    z-index: 4;
+}
+
+.ombra-mascella {
+    border: 4px solid black;
+    width: 6px;
+    height: 97px;
+    position: absolute;
+    top: 247px;
+    right: 76px;
+    transform: rotate(-20deg);
+    border-color: transparent transparent transparent black;
+}
