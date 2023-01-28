@@ -79,6 +79,8 @@
     z-index: 1;
 }
 
+
+
 .visiera-punta {
     border: 1px solid black;
     border-color: transparent transparent transparent black;
@@ -221,4 +223,33 @@
     right: 76px;
     transform: rotate(-20deg);
     border-color: transparent transparent transparent black;
+}
+
+
+
+.vetro-manu {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 147px;
+    height: 333px;
+    border: 1px solid black;
+    border-top-right-radius: 113px;
+    border-bottom-right-radius: 111px;
+    border-color: black black black transparent;
+    background-color: black;
+    z-index: 1;
+}
+
+.maschera {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 157px;
+    height: 389px;
+    border: 1px solid black;
+    border-top-right-radius: 116px;
+    border-bottom-right-radius: 120px;
+    background-color: #e1a74bfe;
+    z-index: 0;
 }
