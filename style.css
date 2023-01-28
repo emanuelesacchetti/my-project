@@ -6,15 +6,9 @@
 
 /*debug*/
 
-.debug .hero {
-    background-color: aqua;
-}
-.debug .hero_title {
-    background-color: blueviolet;
-}
-.debug .flex-cont {
-    background-color: blue;
-}
+
+
+
 
 
 /*css*/
@@ -22,7 +16,7 @@
 .hero {
     max-width: 1170px;
     margin: 50px auto 0;
-    height: 650px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -32,19 +26,26 @@
 .hero_title {
     width: 300px;
     height: 100px;
+    border: black 2px solid;
+}
+
+.hero_title img {
+    width: 100%;
+    object-fit: cover;
+    margin: 17px 12px;
 }
 
 .flex-cont {
     width: 500px;
-    height: 500px;
+    height: 400px;
     display: flex;
+    border: black 2px solid;
 }
 
 .item-sx {
     width: 50%;
     height: 100%;
     position: relative;
-    background-color: coral;
 }
 
 .item-dx {
@@ -144,10 +145,10 @@
 
 .mascella1 {
     width: 59px;
-    height: 49px;
+    height: 65px;
     position: absolute;
     top: 233px;
-    right: 63px;
+    right: 57px;
     border: 1px solid black;
     border-color: transparent transparent transparent black;
     transform: rotate(-10deg);
@@ -158,11 +159,11 @@
     width: 153px;
     height: 144px;
     position: absolute;
-    top: 222px;
-    right: -64px;
+    top: 230px;
+    right: -71px;
     border: 1px solid black;
     border-color: transparent black black transparent;
-    transform: rotate(48deg);
+    transform: rotate(43deg);
     border-bottom-right-radius: 47px;
     background-color: #97aed5fe;
     z-index: 0;
