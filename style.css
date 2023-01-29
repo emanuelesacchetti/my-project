@@ -50,14 +50,36 @@
     width: 100%;
     height: 100%;
     position: relative;
+    
+}
+.int-sx-2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+}
+
+.int-dx-1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+    
+}
+.int-dx-2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
 }
 
 .item-dx {
     width: 50%;
     height: 100%;
     position: relative;
-    background-color: chartreuse;
 }
+
+
 /*thomas sx*/
 .cupola {
     border: 1px solid black;
@@ -181,6 +203,7 @@
     top: 300px;
     right: -2px;
     background-color: black;
+    z-index: 5;
 }
  /*ombre thomas sx*/
 .ombra-cupola {
@@ -229,7 +252,7 @@
     border-color: transparent transparent transparent black;
 }
 
-/*emmanuel*/
+/*emmanuel dx1*/
 
 .vetro-manu {
     position: absolute;
@@ -307,4 +330,179 @@
     border-top-right-radius: 113px;
     background: linear-gradient(57deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 57%, rgba(133,133,133,1) 70%, rgba(255,255,255,1) 78%);
     z-index: 4;
+}
+
+/*emmanuel sx2*/
+
+.vetro-manu_2 {
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    width: 147px;
+    height: 333px;
+    border: 1px solid black;
+    border-top-left-radius: 113px;
+    border-bottom-left-radius: 111px;
+    border-color: black transparent black black;
+    background-color: black;
+    z-index: 2;
+}
+
+.maschera_2 {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 157px;
+    height: 389px;
+    border: 1px solid black;
+    border-top-left-radius: 116px;
+    border-bottom-left-radius: 120px;
+    background-color: #e1a74bfe;
+    z-index: 1;
+}
+
+.orecchio_manu_2 {
+    position: absolute;
+    top: 89px;
+    right: 147px;
+    width: 25px;
+    height: 196px;
+    border: solid black 1px;
+    transform: rotate(-3deg);
+    border-top-left-radius: 30px;
+    z-index: 0;
+    background-color: #e1a74bfe;
+}
+
+/*ombre emmanuel 2*/
+
+.ombra-orecchio_manu_2 {
+    position: absolute;
+    top: 104px;
+    right: 156px;
+    width: 21px;
+    height: 176px;
+    border: solid black 3px;
+    border-color: transparent black transparent transparent;
+    z-index: 4;
+}
+
+/*thomas 2*/
+
+.cupola_2 {
+    border: 1px solid black;
+    border-top-right-radius: 126px;
+    width: 131px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #97aed5fe;
+    z-index: 0;
+}
+
+.visiera_2 {
+    border: 1px solid black;
+    border-color: black transparent black  black;
+    width: 131px;
+    height: 56px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: #97aed5fe;
+    z-index: 1;
+}
+
+.visiera-punta_2 {
+    border: 4px solid black;
+    border-color: transparent  black transparent transparent;
+    width: 30px;
+    height: 56px;
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    transform: rotate(-16deg);
+    border-bottom-left-radius: 14px;
+    background-color: #97aed5fe;
+    z-index: 0;
+}
+.vetro_2 {
+    background-color: black;
+    width: 155px;
+    height: 97px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    border-bottom-right-radius: 50px;
+    z-index: 4;
+}
+.bordo-vetro_2 {
+    border: 1px solid black;
+    width: 161px;
+    height: 103px;
+    position: absolute;
+    top: 149px;
+    left: 0;
+    border-bottom-right-radius: 46px;
+    border-top-right-radius: 10px;
+    background-color: #97aed5fe;
+    z-index: 1;
+}
+.prima-orecchio_2 {
+    height: 90px;
+    width: 15px;
+    position: absolute;
+    top: 150px;
+    left: 147px;
+    border: 1px solid black;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 15px;
+    background-color: #97aed5fe;
+    z-index: 3;
+}
+.orecchio_2 {
+    height: 76px;
+    width: 14px;
+    position: absolute;
+    top: 156px;
+    left: 161px;
+    border: 3px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #97aed5fe;
+    z-index: 0;
+}
+.mascella1_2 {
+    width: 59px;
+    height: 65px;
+    position: absolute;
+    top: 233px;
+    left: 57px;
+    border: 1px solid black;
+    border-color: transparent black transparent transparent ;
+    transform: rotate(10deg);
+    background-color: #97aed5fe;
+    z-index: 0;
+}
+.mascella2_2 {
+    width: 153px;
+    height: 144px;
+    position: absolute;
+    top: 230px;
+    left: -71px;
+    border: 1px solid black;
+    border-color: transparent transparent black transparent  ;
+    transform: rotate(-43deg);
+    border-bottom-left-radius: 47px;
+    background-color: #97aed5fe;
+    z-index: 0;
+}
+.bocca_2 {
+    width: 32px;
+    height: 10px;
+    position: absolute;
+    top: 300px;
+    left: 2px;
+    background-color: black;
+
 }
