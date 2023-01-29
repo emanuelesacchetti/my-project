@@ -45,6 +45,10 @@
 .item-sx {
     width: 50%;
     height: 100%;
+}
+.int-sx-1 {
+    width: 100%;
+    height: 100%;
     position: relative;
 }
 
@@ -54,7 +58,7 @@
     position: relative;
     background-color: chartreuse;
 }
-
+/*thomas sx*/
 .cupola {
     border: 1px solid black;
     border-top-left-radius: 126px;
@@ -178,7 +182,7 @@
     right: -2px;
     background-color: black;
 }
-
+ /*ombre thomas sx*/
 .ombra-cupola {
     border: 4px solid black;
     border-color: transparent transparent transparent black;
@@ -225,7 +229,7 @@
     border-color: transparent transparent transparent black;
 }
 
-
+/*emmanuel*/
 
 .vetro-manu {
     position: absolute;
@@ -238,7 +242,7 @@
     border-bottom-right-radius: 111px;
     border-color: black black black transparent;
     background-color: black;
-    z-index: 1;
+    z-index: 2;
 }
 
 .maschera {
@@ -251,5 +255,56 @@
     border-top-right-radius: 116px;
     border-bottom-right-radius: 120px;
     background-color: #e1a74bfe;
+    z-index: 1;
+}
+
+.orecchio_manu {
+    position: absolute;
+    top: 89px;
+    left: 147px;
+    width: 25px;
+    height: 196px;
+    border: solid black 1px;
+    transform: rotate(3deg);
+    border-top-right-radius: 30px;
     z-index: 0;
+    background-color: #e1a74bfe;
+}
+
+/*ombre emmanuel*/
+
+.ombra-orecchio_manu {
+    position: absolute;
+    top: 113px;
+    left: 150px;
+    width: 21px;
+    height: 176px;
+    border: solid black 3px;
+    transform: rotate(3deg);
+    border-top-right-radius: 30px;
+    border-color: black transparent transparent transparent;
+    z-index: 4;
+}
+
+.ombra-maschera-sotto {
+    position: absolute;
+    top: 308px;
+    left: 92px;
+    width: 25px;
+    height: 71px;
+    border: solid black 4px;
+    transform: rotate(13deg);
+    border-color: transparent transparent transparent black;
+    z-index: 4;
+}
+
+.luce-vetro_manu {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 140px;
+    height: 157px;
+    border-top-right-radius: 113px;
+    background: linear-gradient(57deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 57%, rgba(133,133,133,1) 70%, rgba(255,255,255,1) 78%);
+    z-index: 4;
 }
