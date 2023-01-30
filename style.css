@@ -27,6 +27,7 @@
     width: 300px;
     height: 100px;
     border: black 2px solid;
+    border-radius: 14px;
 }
 
 .hero_title img {
@@ -40,16 +41,22 @@
     height: 400px;
     display: flex;
     border: black 2px solid;
+    border-radius: 14px;
 }
 
 .item-sx {
     width: 50%;
     height: 100%;
+    position: relative;
 }
 .int-sx-1 {
     width: 100%;
     height: 100%;
     position: relative;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
     
 }
 .int-sx-2 {
@@ -57,20 +64,29 @@
     height: 100%;
     position: relative;
     display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .int-dx-1 {
     width: 100%;
     height: 100%;
     position: relative;
-    display: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
     
 }
 .int-dx-2 {
     width: 100%;
     height: 100%;
     position: relative;
-    
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .item-dx {
@@ -276,7 +292,7 @@
     height: 389px;
     border: 1px solid black;
     border-top-right-radius: 116px;
-    border-bottom-right-radius: 120px;
+    border-bottom-right-radius: 148px;
     background-color: #e1a74bfe;
     z-index: 1;
 }
@@ -314,7 +330,7 @@
     top: 308px;
     left: 92px;
     width: 25px;
-    height: 71px;
+    height: 61px;
     border: solid black 4px;
     transform: rotate(13deg);
     border-color: transparent transparent transparent black;
@@ -356,7 +372,7 @@
     height: 389px;
     border: 1px solid black;
     border-top-left-radius: 116px;
-    border-bottom-left-radius: 120px;
+    border-bottom-left-radius: 148px;
     background-color: #e1a74bfe;
     z-index: 1;
 }
@@ -494,6 +510,7 @@
     border-color: transparent transparent black transparent  ;
     transform: rotate(-43deg);
     border-bottom-left-radius: 47px;
+    border-top-left-radius: 69px;
     background-color: #97aed5fe;
     z-index: 0;
 }
@@ -505,4 +522,24 @@
     left: 2px;
     background-color: black;
 
+}
+
+
+
+
+
+
+
+.item-sx:hover .int-sx-1 {
+    display: none;
+}
+.item-sx:hover .int-sx-2 {
+    display: block;
+}
+
+.item-dx:hover .int-dx-1 {
+    display: none;
+}
+.item-dx:hover .int-dx-2 {
+    display: block;
 }
